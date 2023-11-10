@@ -1,0 +1,235 @@
+@media (max-width: 479px) {
+
+    .title {
+        font-size: 21px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+    .header_wrap {
+        padding-bottom: 30px;
+        padding-top: 15px;
+    }
+    .header_mode {
+        font-size: 17px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+    .header_logo {
+        margin-right: 15px;
+    }
+    .header_logo img {
+        width: 120px;
+        height: 60px;
+    }
+    .header_contacts {
+        margin: 10px auto 0;
+        margin-top: 15px;
+    }
+    .header_contacts-phone {
+        font-size: 21px;
+        line-height: 21px;
+    }
+    .header_contacts-text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .gallery_item {
+        width: 100%;
+    }
+    .director {
+        padding: 100px 0 125px;
+    }
+    .director .form-data .line .input {
+        width: 100%;
+    }
+    .director .submit_btn {
+        width: 100%;
+    } 
+    .director_wrap {
+        margin-bottom: 50px;
+    }
+    .director_list li:last-child {
+        margin-bottom: 50px;
+    }
+    .checkbox label {
+        font-size: 11px;
+    }
+    .profile_item-img img {
+        max-width: 100%;
+        height: auto;
+    }
+    br {
+        display: none;
+    }
+    .opportunities_img img {
+        width: 100%;
+    }
+    ..opportunities-bg {
+        padding-top: 80px;
+    }
+    .profile_title div, 
+    .opportunities_title div {
+        margin-right: 0;
+    }
+    .footer_phone {
+        font-size: 30px;
+    }
+    .profile_item-subtitle,
+    .profile_item-title {
+        text-align: start;
+    }
+    .profile_item-title {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .slick-slide img {
+        height: 266px;
+    }
+    .director .form-data .line .field {
+        width: 100%;
+    }
+    .works_item:nth-child(2n),
+    .works_item:nth-child(2n+1) {
+        padding-top: 70px;
+    }
+    .works_item:first-child {
+        background: #fff;
+        padding-top: 0;
+        clip-path: none;
+      }
+    .opportunities_description-title {
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 25px;
+    }
+    .opportunities_img {
+        margin-bottom: 25px;
+    }
+    .opportunities_title {
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+    .work {
+        margin-bottom: 0;
+    }
+    .commercial {
+        padding: 100px 0 100px;
+        margin-top: 40px;
+    }
+    .profile_subtitle {
+        font-size: 16px;
+        line-height: 19px;
+        margin: 25px 0;
+    }
+    .profile_items {
+        margin-bottom: 25px;
+    }
+    .advantages {
+        margin-bottom: 25px;
+    }
+    .director_subtitle {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
+    .gallery {
+        margin-bottom: 0;
+    }
+    header {
+        background: url(../image/header_bg-mob.jpg);
+        background-position: center 0;
+        background-size: cover;
+        padding-bottom: 167px;
+    }
+    .header-banner {
+        display: none !important;
+    }
+    .header-banner-mob {
+        display: block !important;
+        position: absolute;
+        right: 0;
+        top: 67%;
+    }
+    .commercial {
+        background: url(../image/commercial_bg-mob.jpg);
+        background-position: center 0;
+        background-size: cover;
+    }
+    .advantages {
+        background: url(../image/advantages-mob.jpg);
+        background-position: center 0;
+        background-size: cover;
+    }
+    .services {
+        background: url(../image/service-mob.jpg);
+        background-position: center 0;
+        background-size: cover;
+    }
+
+    .footer_title {
+        font-size: 27px;
+        line-height: 42px;
+    }
+    .footer_subtitle {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .services_text {
+        font-size: 21px;
+        line-height: 32px;
+    }
+    .slider-for {
+        height: 275px;
+    }
+    .profile_item-list .name {
+        width: 75%;
+        font-size: 12px;
+    }
+    .profile_item-list .value {
+        font-size: 12px;
+    }
+    .opportunities {
+        padding: 140px 0 0px;
+    }
+    .quality_list li {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .director {
+        padding: 100px 0 70px;
+    }
+    .consultation {
+        padding: 20px;
+    }
+    .consultation_title {
+        font-size: 26px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .consultation_text {
+        font-size: 17px;
+        line-height: 24px;
+        margin-bottom: 40px;
+    }
+    .consultation .submit_btn {
+        width: 100%;
+    }
+    .opportunities {
+        padding: 122px 0 0px;
+    }
+    .opportunities-bg {
+        padding: 62px 0 0px;
+    }
+    .opportunities-bg {
+        background-position: center -82px;
+    }
+    .quality {
+        background-position: center -60px;
+        padding: 100px 0 0;
+    }
+    .quality_items-list li {
+        margin-bottom: 40px;
+    }
+
+
+}

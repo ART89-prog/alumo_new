@@ -1,0 +1,479 @@
+@media (max-width: 767px){      
+ 
+    .title {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    header {
+        padding-bottom: 193px;
+        background: url(../image/header-bg.jpg);
+        background-position: center 0;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+    }
+    .header-banner {
+        display: block !important;
+        top: 58%;
+        right: 0;
+        position: absolute;
+    }
+    .header_mode {
+        order: 3;
+        width: 410px;
+        margin-left: 0;
+    }
+    .header_title {
+        font-size: 33px;
+        line-height: 33px;
+        margin-bottom: 8px;
+    }
+    .header_subtitle {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .header .submit_btn {
+        width: 211px;
+        height: 58px;
+    }
+    .header_text {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+    .header_wrap {
+        flex-wrap: wrap;
+        padding-bottom: 19px;
+    }
+    .gallery_item {
+        width: calc(100%/2 - 20px);
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .gallery_wrap {
+        margin-left: -20px;        
+    }
+    .director_wrap {
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 92px;
+    }
+    .director_wrap-left {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+    .contacts_wrap {
+        flex-direction: column-reverse;
+    }
+    .contact_info {
+        margin-left: 0px;
+        margin-bottom: 45px;
+    }
+    .map_wrap {
+        width: 100%;
+        height: 235px;
+    }
+    .form .form-data {
+        flex-direction: column;
+    }
+    .form .line {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-data .line .input {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .commercial .form .line .field{
+         width: 100%;
+    }
+    .commercial .form-data .line .input {
+        width: 100%;
+    }
+    .director .form-data .line .input {
+        width: 391px;
+        margin-right: 0;
+    }
+    .director .submit_btn {
+        width: 391px;
+        margin: 0 auto;
+    }   
+    .submit_btn {
+        margin-right: auto;
+    }
+    .quality_items-list {
+        flex-direction: column;
+    }
+    .quality_items-list li {
+        padding-left: 90px;
+        padding-top: 0;
+        margin-bottom: 65px;
+        text-align: left;
+        width: 100%;
+    }
+    .quality_items-list li::after {
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .profile_item-description {
+        display: flex;
+        align-items: center;
+    }
+    .profile_item-description-title {
+        width: 70%;
+        margin-left: 15px;
+    }
+    .profile_item-img img {
+        max-width: 100%;
+        height: auto; 
+        margin-bottom: 0;
+    }
+    .profile_item-img {
+        margin-bottom: 0px;
+        height: auto;
+        width: 30%;
+    }
+    .profile_item-description {
+        margin-bottom: 19px;
+    }
+    .profile_item {
+        margin-right: 0;
+        margin-bottom: 45px;
+    }
+    .profile_items {
+        margin-bottom: 45px;
+    }
+    .profile_text {
+        font-size: 21px;
+        line-height: 24px;
+        text-align: left;
+        margin-bottom: 38px;
+    }
+    .profile_subtitle {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .profile_item-title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 0px;
+    }
+    .profile_item-list1,
+    .profile_item-list2,
+    .profile_item-list3,
+    .profile_item-list4,
+    .profile_item-list5,
+    .profile_item-list6,
+    .profile_item-list7 {
+        display: none;
+    }
+    .active {
+        display: block;
+    }
+    .profile_item-subtitle {
+        text-align: center;
+    }
+    .profile_item-subtitle1,
+    .profile_item-subtitle2,
+    .profile_item-subtitle3,
+    .profile_item-subtitle4,
+    .profile_item-subtitle5,
+    .profile_item-subtitle6,
+    .profile_item-subtitle7 {
+       border-bottom: 1px dashed #178cc3; 
+       color: #178cc3;
+       display: inline-block;
+       line-height: 13px;
+       margin-top: 10px;           
+    }
+    .modal_title {
+        font-size: 19px;
+        line-height: 26px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .modal_text {
+        margin-bottom: 20px;
+        line-height: 18px;
+    }
+    .modal_text li {
+        margin-bottom: 5px;
+    }
+    .modal .field {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .modal .form .input {
+        max-width: none;
+    }
+    .modal .form .submit_btn {
+        width: 100%;
+    }
+    .modal {
+        padding: 37px 27px 30px;
+    }
+    .checkbox label {
+        line-height: 21px;
+    }
+    .modal .form .line {
+        margin-bottom: 25px;
+    }
+    .custom-checkbox + label:before {
+        top: -3px;
+        left: -3px;
+    }
+    .custom-checkbox:checked + label:after {
+        left: 3px;
+        top: 4px;
+    }
+    .work {
+        margin-top: 40px;
+    }
+    .work_title {
+        margin-bottom: 28px;
+    }
+    .work_item-description {
+        margin-top: 19px;
+    }
+    .more-btn {
+        width: 251px;
+        height: 47px;
+        margin: 33px auto;
+    }
+    .commercial_title {
+        font-size: 33px;
+        line-height: 33px;
+    }
+    .commercial .form .line {
+       
+    }
+    .commercial .submit_btn {
+        width: 235px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .profile_item-list .value {
+        margin-left: 17%;
+        width: 22%;
+    }
+    .commercial_list {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .commercial_list li {
+        margin-bottom: 8px;
+    }
+    .opportunities_description-title {
+        margin-bottom: 32px;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .opportunities_list li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .opportunities_list li:last-child {
+        margin-bottom: 0;
+    }
+    .services_text {
+        font-size: 29px;
+        line-height: 30px;;
+    }
+    .director_title {
+        font-size: 33px;
+        line-height: 33px; 
+    }
+    .director_subtitle {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .director_photo {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+    .director_photo img {
+        border-radius: 50%;
+        border: 5px solid #fff;
+        margin-bottom: 0px;      
+        width: 142px;
+        height: 142px;
+    }
+    .director_name {
+        width: 200px;
+    }
+    .director_list li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .footer_title {
+        font-size: 32px;
+        line-height: 25px;
+    }
+    .footer_subtitle {
+        font-size: 22px;
+    }
+    .footer_phone {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .footer_time {
+        font-size: 14px;
+        margin-bottom: 31px;
+        margin-top: 13px;
+    }
+    .footer_copyright {
+        font-size: 14px;
+    }
+    .footer {
+        padding: 130px 0 30px;
+    }
+    .contacts {
+        margin-bottom: 50px;
+    }
+    .more-btn a {
+        line-height: 47px;
+        font-size: 14px;
+    }
+    .work_item-name {
+        font-size: 13px;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+    .commercial {
+        margin-bottom: 15px;
+    }
+    .commercial_list li::before {
+        width: 14px;
+        height: 8px;
+        left: 2px;
+        top: 4px;
+    }
+    .header_logo img {
+        width: 142px;
+        height: 70px;
+    }
+    .profile_subtitle {
+        margin-top: 30px;
+    }
+    .opportunities_img img {
+        width: 100%;
+    }
+    .contacts_title {
+        margin-bottom: 28px;
+    }
+    .contact_info {
+        line-height: 22px;
+    }
+    .contact_info-name {
+        margin-top: 18px;
+    }
+    .contact_info-phone a {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .contact_info {
+        font-size: 14px;
+    }
+    .profile_item-list .name {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .profile_item-list .value {
+        font-size: 13px;
+    }
+    .profile_item-subtitle {
+        font-size: 13px;
+    }
+    .director_name {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .opportunities_description:nth-child(2n+1) {
+        margin-right: 0;
+    }
+    br {
+        display: none;
+    }
+    .slider-for {
+        height: 350px;
+    }
+    .director {
+        padding: 90px 0 34px;
+        background-position: center 0;
+        background-size: cover;
+    }
+    .advantages_wrap {
+        align-items: center;
+        flex-direction: column;
+    }
+    .advantages_date {
+        margin-top: 150px;
+    }
+    .gallery .form-data .line .field {
+        width: 100%;
+    }
+    .gallery .form-data .line .input {
+        width: 100%;
+    }
+    .gallery form .submit_btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .quality {
+        padding: 180px 0 0;
+    }
+    .gallery-form_title {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .commercial {
+        padding: 100px 0 70px;
+    }
+    .quality_items-list li {
+        font-size: 17px;
+    }
+    .consultation_title {
+        font-size: 31px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .consultation_text {
+        font-size: 19px;
+        line-height: 26px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .consultation {
+        padding: 38px;
+    }
+    .commercial {
+        background-size: cover;
+    }
+
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

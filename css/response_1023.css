@@ -1,0 +1,271 @@
+@media (max-width: 1023px){      
+ 
+    .title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .header_wrap {
+        padding-top: 30px;
+        padding-bottom: 37px;
+    }
+    .header_title {
+        font-size: 50px;
+        line-height: 53px;
+    }
+    .header_contacts-phone {
+        font-size: 24px;
+        line-height: 23px;
+    }
+    .header_mode {
+        margin-left: 20px;
+        font-size: 17px;
+        margin-top: 17px;
+    } 
+    .header_subtitle {
+        font-size: 30px;
+    }
+    .header_text {
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .header-banner {
+        top: 68%;
+    }
+    .slider-nav {
+        display: none;
+    }
+    .work {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .work_item-slider {
+        margin: 0 auto;
+    }
+    .work_item {
+        flex-direction: column;
+    }
+    .work_item-mob {
+        flex-direction: column-reverse;
+    }
+    .profile_title img,
+    .opportunities_title img {
+        display: none;
+    }
+    .profile_subtitle {
+        margin-top: 35px;
+    }
+    .profile_item {
+        width: 100%;
+    }
+    .profile_item-img img {
+        margin: 0 auto 27px;
+    }
+    .opportunities_wrap {
+        flex-direction: column;
+    }
+    .opportunities_wrap:nth-child(2n+1) {
+        flex-direction: column-reverse;
+    }
+    .opportunities_description:nth-child(2n) {
+        margin-left: 0px;
+    }   
+    .opportunities_img {
+        margin-bottom: 38px;
+    }
+    .director_list {
+        padding-right: 0px;
+    }
+    .director_wrap-left {
+        margin-right: 30px;
+    }
+    .contact_info {
+        margin-left: 30px;
+    }
+    .slider-for {
+        position: relative;
+    }
+    .slider-for .slick-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .slider-for .slick-dots li{
+        list-style: none;
+        margin: 0px 5px;
+    }
+    .slider-for .slick-dots button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        border: none;
+    }
+    .slider-for .slick-dots li.slick-active button{
+        background-color: #f2871a;
+    }
+    .work_item-description {
+        margin-top: 35px;
+    }
+    .work_item-description:nth-child(2n) {
+        margin-left: 0px;
+    }
+    .work_item-description:nth-child(2n+1) {
+        margin-right: 0;
+    }
+    .advantages_list li {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .works_item:nth-child(2n) {
+        padding-top: 150px;
+    }
+    .works_item:nth-child(2n+1) {
+        padding-top: 150px;
+    }
+    .works_item:first-child {
+        background: #fff;
+        padding-top: 0;
+        clip-path: none;
+      }
+    .opportunities-bg {
+        padding-top: 105px;
+    }
+    .slider-for {
+        width: 100%;
+        height: 580px;
+    }
+    .work_item-slider {
+        width: 100%;
+    }
+    .opportunities_img {
+        width: 100%;
+    }
+    .opportunities_img img {
+        width: 100%;
+    }
+    .more-btn {
+        margin: 40px auto 0px;
+    }
+    .commercial {
+        margin-bottom: 40px;
+    }
+    .commercial_image {
+        display: none;
+    }
+    .profile_text-link {
+        margin-bottom: 70px;
+    }
+    .advantages {
+        margin-bottom: 40px;
+    }
+    .opportunities_wrap {
+        margin-bottom: 40px;
+    }
+    .services {
+        margin-bottom: 40px;
+    }
+    .gallery_title {
+        margin-bottom: 30px;
+    }
+    .gallery {
+        margin-bottom: 40px;
+    }
+    .director {
+        margin-bottom: 20px;
+    }
+    .contacts_title {
+        margin-bottom: 30px;
+    }
+    .contacts {
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+    .profile_item-list .name {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .profile_item-list .value {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .profile_item-subtitle {
+        font-size: 16px;
+    }
+    .director_name {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .director_subtitle {
+        font-size: 26px;
+        line-height: 26px;
+        margin-bottom: 35px;
+    }
+    .director_list li {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .director .submit_btn span {
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .quality_wrap {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+    .quality_list {
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .videos_item {
+        width: 100%;
+    }
+    .videos_item img {
+        width: 100%;
+        height: 319px;
+    }
+    .profile_item-consultation {
+        margin-bottom: 40px;
+    }
+    .quality_items-list li {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .quality {
+        padding: 191px 0 59px;
+    }
+    .director .form-data .line .input {
+        width: 215px;
+        height: 55px;
+    }
+    .director {
+        padding: 100px 0 0;
+    }
+
+
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

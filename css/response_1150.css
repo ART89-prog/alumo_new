@@ -1,0 +1,45 @@
+@media (max-width: 1150px){
+
+    .profile_items {
+        justify-content: center;
+    }
+    .profile_item {
+        width: calc(100%/2 - 54px);
+    }
+    .header_mode { 
+        width: 306px;
+    }
+    .consultation {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    .director .form-data {
+        flex-direction: column;
+    }
+    .director .submit_btn {
+        margin-top: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
